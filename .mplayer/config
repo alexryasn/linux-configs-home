@@ -1,0 +1,8 @@
+# Write your default config options here!
+font = "Terminus Re33"
+subcp = "UTF-8"
+subfont-text-scale = "5"
+#subfont-blur = "1"
+#subfont-outline = "4"
+
+
