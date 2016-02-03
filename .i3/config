@@ -177,6 +177,7 @@ bindsym XF86AudioLowerVolume exec amixer -q set Master 2dB- unmute
 #bindsym XF86AudioMute exec amixer -q set Master toggle
 bindsym $mod+KP_Add exec amixer -q set Master 2dB+ unmute
 bindsym $mod+KP_Subtract exec amixer -q set Master 2dB- unmute
+bindsym XF86Calculator exec gnome-calculator
 
 # class                 border  backgr. text    indicator
 client.focused          #4c7899 #2866ee #ffffff #2e9ef4
@@ -194,7 +195,7 @@ new_window normal 1
 #exec gnome-settings-daemon
 
 bindsym Print exec scrot '%Y%m%d-%H%M%S-$wx$h.png' -e 'mv $f ~/Documents/screenshots/'
-bindsym Mod1+Print exec scrot -u -b '%Y%m%d-%H%M%S-$wx$h.png' -e 'mv $f ~/Documents/screenshots/'
+bindsym Mod1+Sys_Req exec scrot -u -b '%Y%m%d-%H%M%S-$wx$h.png' -e 'mv $f ~/Documents/screenshots/'
 
 for_window [class="KeePass"] floating enable
 for_window [title="KeePass"] floating enable
