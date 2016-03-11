@@ -13,8 +13,8 @@
     "percent": 0.5,
     "swallows": [
        {
-        "class": "^Gnome-terminal$",
-        "instance": "^gnome-terminal$"
+        //"class": "^Gnome-terminal$",
+        //"instance": "^gnome-terminal$"
        // "title": "^ryasale\\@ryasale\\-laptop\\:\\ \\~$",
        // "transient_for": "^$",
        // "window_role": "^gnome\\-terminal\\-window\\-9397\\-1665818920\\-1451331929$"
@@ -37,8 +37,8 @@
     "percent": 0.5,
     "swallows": [
        {
-       "class": "^Gnome-terminal$",
-       "instance": "^gnome-terminal$"
+       //"class": "^Gnome-terminal$",
+       //"instance": "^gnome-terminal$"
        // "title": "^ryasale\\@ryasale\\-laptop\\:\\ \\~$",
        // "transient_for": "^$",
        // "window_role": "^gnome\\-terminal\\-window\\-9397\\-\\-42265991\\-1451331938$"
